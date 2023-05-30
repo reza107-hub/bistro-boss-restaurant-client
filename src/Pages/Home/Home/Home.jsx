@@ -1,5 +1,13 @@
+import Category from "../../Order/Category";
+import Banner from "../Banner/Banner";
+
 const Home = () => {
-  return <>home</>;
+  return (
+    <>
+      <Banner />
+      <Category />
+    </>
+  );
 };
 
 export default Home;
