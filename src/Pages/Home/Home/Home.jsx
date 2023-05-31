@@ -6,10 +6,14 @@ import ContactUs from "../ContactUs/ContactUs";
 import ChefRecommend from "../ChefRecommend/ChefRecommend";
 import Featured from "../Featured/Featured";
 import Testimonials from "../Testimonials/Testimonials";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   return (
     <>
+    <Helmet>
+      <title>Bistro Boss Restaurant | Home</title>
+    </Helmet>
       <Banner />
       <Category />
       <AboutUs />
