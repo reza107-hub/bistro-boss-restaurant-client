@@ -5,3 +5,9 @@
 .font {
   font-family: "Cinzel", serif;
 }
+.btn-main {
+  @apply btn btn-primary btn-outline normal-case border-0 border-b-4;
+}
+.btn-second {
+  @apply btn btn-primary btn-outline border-0 border-b-4 text-[#BB8506] hover:text-[#BB8506];
+}
